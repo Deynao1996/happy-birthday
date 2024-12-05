@@ -1,0 +1,6 @@
+//!no-unescaped-entities off - not recommended
+
+{
+  "extends": "next/core-web-vitals",
+  "react/no-unescaped-entities": "off"
+}
