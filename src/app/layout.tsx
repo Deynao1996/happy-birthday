@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 const orbitron = Orbitron({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Happy Birthday!',
+  title: 'Happy Birthday, Old School',
 }
 
 export default function RootLayout({

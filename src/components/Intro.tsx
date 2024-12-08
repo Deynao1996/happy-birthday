@@ -74,14 +74,15 @@ export default function Intro() {
         muted
         loop
         className="w-full h-full-screen object-fill sm:object-cover fixed inset-0"
-        src={require('../../public/video/intro_mobile.mp4')}
+        src={require('../../public/video/intro_mobile_1.mp4')}
       />
       <div className="flex justify-center items-end w-full h-full-screen absolute inset-0 pb-20">
-        <div className="md:w-1/3 min-w-[300px] p-10 bg-black/50 rounded-xl backdrop-blur-xl border border-primary">
+        <div className="min-w-[300px] p-10 bg-black/50 rounded-xl backdrop-blur-xl border border-primary">
           <div className="absolute left-1/2 -translate-x-1/2 -translate-y-16">
+          <div className="absolute right-1 bottom-1 size-3 bg-blue-500 z-10 rounded-full border border-white"></div>
             <div className="relative w-16 h-16 rounded-full overflow-hidden border-primary border-2">
               <Image
-                src={'/img/logo.jpg'}
+                src={'/img/logo.png'}
                 fill
                 priority
                 sizes="(100vw, 100vh)"
